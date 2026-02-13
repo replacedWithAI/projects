@@ -261,7 +261,7 @@ class scheduleSolver {
 };
 
     int main() {
-        DepartmentJsonsGetter departmentJsonsObj("C:\\Users\\subsa\\Downloads\\output_courses_json 2026_01_15\\output_courses_json 2026_01_15");
+        DepartmentJsonsGetter departmentJsonsObj("C:\\Users\\user\\Downloads\\output_courses_json 2026_01_15\\output_courses_json 2026_01_15");
         vector<json> departmentJsons = departmentJsonsObj.getDepartmentJsons();
         cout << "Number of department JSONs loaded: " << departmentJsons.size() << endl;
         cout << departmentJsons[0]["courses"].size();
@@ -284,4 +284,5 @@ class scheduleSolver {
 
 
         return 0;
+
     }
